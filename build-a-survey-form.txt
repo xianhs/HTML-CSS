@@ -1,0 +1,149 @@
+** start of undefined **
+
+<DOCTYPE! hmtl>
+  <html>
+     <head>
+       <meta charset="utf=8">
+        <title></title>
+        <link rel="stylesheet" href="styles.css"/>
+      </head>
+      <body>
+        <form id="survey-form">
+        <div class="form">
+          <h1 id="title">Goals In Coding</h1>
+            <p class="description" id="description">What do you plan to do in your coding journey?</p>
+        <fieldset>
+          <label id="name-label" for="name">Enter Your First Name: <input id="name" name="first-name" type="text" placeholder="Bob.." required/></label>
+          <br></br>
+          <label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" placeholder="bob88@gmail.com...." required />
+          <br></br>
+          <label id="number-label" for="number">Input your age: <input id="number" type="number" name="age" min="13" max="120" placeholder="(years)"/></label>
+        </fieldset>
+          <fieldset>
+          <label for="dropdown">What is your goal career type?
+            <select id="dropdown" name="dropdown" required>
+              <option value="">(select one)</option>
+              <option value="1">Big Company</option>
+              <option value="2">Mid-Size Company</option>
+              <option value="3">Front-End Development</option>
+              <option value="4">Back-End Development</option>
+              <option value="4">Full-Stack</option>
+              <option value="5">Machine Engineering</option>
+              <option value="6">Other</option>
+            </select>
+            </fieldset>
+            <br></br>
+            <fieldset>
+              <legend>Coding Level :</legend>
+              <label for="amateur"><input value="1" id="amateur" type="radio" name="coding-level" class="inline" checked /> Amateur</label>
+              <label for="beginner"><input value="2" id="beginner" type="radio" name="coding-level" class="inline" />Beginner</label>
+              <label for="Intermediate"><input value="3" id="Intermediate" type="radio" name="coding-level" class="inline" />Intermediate</label>
+              <label for="advanced"><input value="4" id="advanced" type="radio" name="coding-level" class="inline" />Advanced</label>
+            </fieldset>
+            <fieldset>
+              <label for="bio">What is preventing you from getting your desired career? :
+          <textarea id="preventing" name="preventing" rows="3" cols="30" placeholder="My current level is holding me..."></textarea>
+        </label>
+              </fieldset>
+      <input class="inline" id="email-form" type="checkbox" value="c1" name="email=form" /> Allow us to email the form to you?
+      <br></br>
+      <input class="inline" id="terms-and-conditions" value="c2" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" id="submit" type="submit"/>
+      </form>
+      </body>
+  </html>
+  
+
+** end of undefined **
+
+** start of undefined **
+
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.description {
+  font-style: italic;
+}
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+.description {
+  text-style: italic;
+}
+
+p {
+  border-bottom: 3px solid #3b3b4f;
+  padding-bottom: 1rem;
+}
+
+.description {
+  text-style: italic;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+body {
+  padding: 4rem;
+  width: 100%;
+  margin: 1em auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-image: url(https://th.bing.com/th/id/OIP.Kev1wv5JVtC0AZ7bLJvbKgHaEK?w=328&h=184&c=7&r=0&o=5&pid=1.7)
+}
+
+.form{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem;
+  width: 75%;
+  box-shadow: 0 0 20px 0 #32cd33;
+  background-color: #1b1b32;
+  border-radius: 50px;
+  max-width: 500px;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #0a0a23;
+  border-color: #3b3b4f;
+  min-width: 300px;
+  shape: orb;
+  border-radius: 50px;
+}
+
+** end of undefined **
+
