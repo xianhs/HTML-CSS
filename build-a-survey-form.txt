@@ -42,15 +42,15 @@
             </fieldset>
             <fieldset>
               <label for="bio">What is preventing you from getting your desired career? :
-          <textarea id="preventing" name="preventing" rows="3" cols="30" placeholder="My current level is holding me..."></textarea>
-        </label>
-              </fieldset>
-      <input class="inline" id="email-form" type="checkbox" value="c1" name="email=form" /> Allow us to email the form to you?
-      <br></br>
-      <input class="inline" id="terms-and-conditions" value="c2" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
-      </label>
-      <input type="submit" value="Submit" id="submit" type="submit"/>
-      </form>
+                <textarea id="preventing" name="preventing" rows="3" cols="30" placeholder="My current level is holding me..."></textarea>
+              </label>
+            </fieldset>
+              <input class="inline" id="email-form" type="checkbox" value="c1" name="email=form" /> Allow us to email the form to you?
+              <br></br>
+              <input class="inline" id="terms-and-conditions" value="c2" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+              </label>
+              <input type="submit" value="Submit" id="submit" type="submit"/>
+        </form>
       </body>
   </html>
   
